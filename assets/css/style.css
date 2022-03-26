@@ -1,5 +1,35 @@
 body {
-    background-color: #423F3E;
+    background-color: #000000;
     color: #ff3403;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.choice-area {
+    padding-bottom: 2%;
+}
+
+.chosen {
+    background-color: #2b2928;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+#player {
+    float: left;
+}
+
+#computer {
+    float: right;
 }
