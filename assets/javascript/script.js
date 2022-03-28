@@ -41,24 +41,35 @@ function getResult() {
     }
     if (computerChoice === 'rock' && userChoice === "paper") {
         result = "You win!"
+        incrementUser();
     }
     if (computerChoice === 'rock' && userChoice === "scissors") {
         result = "You lost!"
     }
     if (computerChoice === 'paper' && userChoice === "scissors") {
         result = "You win!"
+        incrementUser();
     }
     if (computerChoice === 'paper' && userChoice === "rock") {
-        result = "You lose!"
+        result = "You lost!"
     }
     if (computerChoice === 'scissors' && userChoice === "rock") {
         result = "You win!"
+        incrementUser();
     }
     if (computerChoice === 'scissors' && userChoice === "paper") {
-        result = "You lose!"
+        result = "You lost!"
     }
     resultDisplay.innerHTML = result
 } 
 
 // generates score for player //
+
+function incrementUser() {
+    let userScore = parseInt(document.getElementById("user").innerText);
+    document.getElementById("user").innerText = ++userScore;
+}
+
+
+
 
