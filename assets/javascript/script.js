@@ -2,6 +2,8 @@ const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.querySelectorAll('button')
+let userScore = 0;
+let computerScore = 0;
 let userChoice
 let computerChoice
 let result
@@ -12,6 +14,8 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     generateComputerChoice()
     getResult()
 }))
+
+// generates the computers choice //
 
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) + 1
@@ -28,6 +32,8 @@ function generateComputerChoice() {
     }
     computerChoiceDisplay.innerHTML = computerChoice
 }
+
+// generates the result //
 
 function getResult() {
     if (computerChoice === userChoice) {
@@ -53,3 +59,6 @@ function getResult() {
     }
     resultDisplay.innerHTML = result
 } 
+
+// generates score for player //
+
