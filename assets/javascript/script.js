@@ -2,11 +2,12 @@ const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.querySelectorAll('button')
-var userScore = 0;
-var computerScore = 0;
 let userChoice
 let computerChoice
 let result
+var userScore = document.getElementById('user-score')
+var computerScore = document.getElementById('computer-score')
+const gameOver = 5;
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
@@ -20,6 +21,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) + 1
     console.log(randomNumber)
+    checkWinner()
 
     if (randomNumber === 1) {
         computerChoice = 'rock'
@@ -71,23 +73,23 @@ function getResult() {
 function incrementUserScore() {
     let userScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++userScore;
-    checkGameOver()
+    console.log(userScore);
 }
 
 function incrementComputerScore() {
     let computerScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++computerScore;
-    checkGameOver()
+    console.log(computerScore);
 }
-
 
 // alerts who the winner is based on who reaches 5 first //
 
-function checkGameOver() {
-    if (userScore === '5') {
-        alert('You have won the match!')
-    }
-    if (computerScore === '5') {
-        alert('You have lost the match!')
+function checkWinner() { 
+    if (userScore === gameOver) {
+        alert('You have won the match!');
+    } else if (computerScore === gameOver) {
+        alert('You have lost the match!');
     }
 }
+
+checkWinner()
