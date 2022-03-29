@@ -77,3 +77,11 @@ function incrementComputerScore() {
     let computerScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++computerScore;
 }
+
+// alerts who the winner is based on who reaches 5 first //
+
+function decideWinner() {
+    if (userScore === 5) {
+        alert("You have won the match!");
+    }
+}
