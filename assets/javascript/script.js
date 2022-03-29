@@ -2,8 +2,8 @@ const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.querySelectorAll('button')
-let userScore = 0;
-let computerScore = 0;
+var userScore = 0;
+var computerScore = 0;
 let userChoice
 let computerChoice
 let result
@@ -69,6 +69,12 @@ function incrementUser() {
     let userScore = parseInt(document.getElementById("user").innerText);
     document.getElementById("user").innerText = ++userScore;
 }
+
+function incrementComputer() {
+    let computerScore = parseInt(document.getElementById("computer").innerText);
+    document.getElementById("computer").innerText = ++computerScore;
+}
+
 
 
 
