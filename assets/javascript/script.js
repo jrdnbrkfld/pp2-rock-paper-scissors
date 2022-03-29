@@ -41,40 +41,39 @@ function getResult() {
     }
     if (computerChoice === 'rock' && userChoice === "paper") {
         result = "You win!"
+        incrementUserScore()
     }
     if (computerChoice === 'rock' && userChoice === "scissors") {
         result = "You lost!"
+        incrementComputerScore()
     }
     if (computerChoice === 'paper' && userChoice === "scissors") {
         result = "You win!"
+        incrementUserScore()
     }
     if (computerChoice === 'paper' && userChoice === "rock") {
         result = "You lost!"
+        incrementComputerScore()
     }
     if (computerChoice === 'scissors' && userChoice === "rock") {
         result = "You win!"
+        incrementUserScore()
     }
     if (computerChoice === 'scissors' && userChoice === "paper") {
         result = "You lost!"
+        incrementComputerScore()
     }
-
-    if (result === "You win!") {
-        incrementUserScore(); 
-    } if (result === "You lost!") { 
-        incrementComputerScore();
-    }
-
     resultDisplay.innerHTML = result
 }
 
 // generates score for player //
 
 function incrementUserScore() {
-    let userScore = parseInt(document.getElementById("user").innerText);
-    document.getElementById("user").innerText = ++userScore;
+    let userScore = parseInt(document.getElementById("user-score").innerText);
+    document.getElementById("user-score").innerText = ++userScore;
 }
 
 function incrementComputerScore() {
-    let computerScore = parseInt(document.getElementById("computer").innerText);
-    document.getElementById("computer").innerText = ++computerScore;
+    let computerScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++computerScore;
 }
