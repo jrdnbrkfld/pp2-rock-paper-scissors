@@ -71,17 +71,23 @@ function getResult() {
 function incrementUserScore() {
     let userScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++userScore;
+    checkGameOver()
 }
 
 function incrementComputerScore() {
     let computerScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++computerScore;
+    checkGameOver()
 }
+
 
 // alerts who the winner is based on who reaches 5 first //
 
-function decideWinner() {
-    if (userScore === 5) {
-        alert("You have won the match!");
+function checkGameOver() {
+    if (userScore === '5') {
+        alert('You have won the match!')
+    }
+    if (computerScore === '5') {
+        alert('You have lost the match!')
     }
 }
