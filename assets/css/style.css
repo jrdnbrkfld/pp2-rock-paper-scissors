@@ -19,6 +19,7 @@ button {
     height: auto;
     font-size: 1.5rem;
     margin: 0 30px;
+    color: black;
 }
 
 .choice-area {
