@@ -5,9 +5,9 @@ const possibleChoices = document.querySelectorAll('button')
 let userChoice
 let computerChoice
 let result
-var userScore = document.getElementById('user-score')
-var computerScore = document.getElementById('computer-score')
 const gameOver = 5;
+let userScore = document.getElementById('user-score')
+let computerScore = document.getElementById('computer-score')
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
@@ -21,15 +21,14 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) + 1
     console.log(randomNumber)
-    checkWinner()
 
-    if (randomNumber === 1) {
+    if (randomNumber == 1) {
         computerChoice = 'rock'
     }
-    if (randomNumber === 2) {
+    if (randomNumber == 2) {
         computerChoice = 'paper'
     }
-    if (randomNumber === 3) {
+    if (randomNumber == 3) {
         computerChoice = 'scissors'
     }
     computerChoiceDisplay.innerHTML = computerChoice
@@ -38,30 +37,30 @@ function generateComputerChoice() {
 // generates the result //
 
 function getResult() {
-    if (computerChoice === userChoice) {
+    if (computerChoice == userChoice) {
         result = "It's a draw!"
     }
-    if (computerChoice === 'rock' && userChoice === "paper") {
+    if (computerChoice == 'rock' && userChoice === "paper") {
         result = "You win!"
         incrementUserScore()
     }
-    if (computerChoice === 'rock' && userChoice === "scissors") {
+    if (computerChoice == 'rock' && userChoice === "scissors") {
         result = "You lost!"
         incrementComputerScore()
     }
-    if (computerChoice === 'paper' && userChoice === "scissors") {
+    if (computerChoice == 'paper' && userChoice === "scissors") {
         result = "You win!"
         incrementUserScore()
     }
-    if (computerChoice === 'paper' && userChoice === "rock") {
+    if (computerChoice == 'paper' && userChoice === "rock") {
         result = "You lost!"
         incrementComputerScore()
     }
-    if (computerChoice === 'scissors' && userChoice === "rock") {
+    if (computerChoice == 'scissors' && userChoice === "rock") {
         result = "You win!"
         incrementUserScore()
     }
-    if (computerChoice === 'scissors' && userChoice === "paper") {
+    if (computerChoice == 'scissors' && userChoice === "paper") {
         result = "You lost!"
         incrementComputerScore()
     }
@@ -71,25 +70,31 @@ function getResult() {
 // generates score for player //
 
 function incrementUserScore() {
-    let userScore = parseInt(document.getElementById("user-score").innerText);
-    document.getElementById("user-score").innerText = ++userScore;
-    console.log(userScore);
+    let currentUserScore = parseInt(userScore.innerText);
+    currentUserScore++;
+    console.log(currentUserScore);
+    userScore.innerText = currentUserScore;
+    checkWinner(currentUserScore, 'user')
 }
 
 function incrementComputerScore() {
-    let computerScore = parseInt(document.getElementById("computer-score").innerText);
-    document.getElementById("computer-score").innerText = ++computerScore;
-    console.log(computerScore);
+    let currentComputerScore = parseInt(computerScore.innerText);
+    currentComputerScore++;
+    console.log(currentComputerScore);
+    computerScore.innerText = currentComputerScore;
+    checkWinner(currentComputerScore, 'comp')
 }
 
 // alerts who the winner is based on who reaches 5 first //
 
-function checkWinner() { 
-    if (userScore === gameOver) {
-        alert('You have won the match!');
-    } else if (computerScore === gameOver) {
-        alert('You have lost the match!');
+function checkWinner(score, player) { 
+    if (player == 'user') {
+        if (score == gameOver) {
+            alert('You have won the match!');
+        }
+    } else if (player == 'comp') {
+        if (score == gameOver) {
+            alert('You have lost the match!');
+        }
     }
 }
-
-checkWinner()
