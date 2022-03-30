@@ -50,3 +50,15 @@ button {
     font-weight: bold;
 }
 
+@media (max-width: 414px) {
+    body {
+      font-size: small;
+    }
+  }
+
+@media (max-width: 320px) {
+    button {
+        margin: 10px;
+    }
+}
+

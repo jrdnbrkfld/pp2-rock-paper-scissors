@@ -16,7 +16,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     getResult()
 }))
 
-// generates the computers choice //
+// generates the computers choice
 
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) + 1
@@ -34,7 +34,7 @@ function generateComputerChoice() {
     computerChoiceDisplay.innerHTML = computerChoice
 }
 
-// generates the result //
+// generates the result 
 
 function getResult() {
     if (computerChoice == userChoice) {
@@ -67,7 +67,7 @@ function getResult() {
     resultDisplay.innerHTML = result
 }
 
-// generates score for player //
+// generates score for player 
 
 function incrementUserScore() {
     let currentUserScore = parseInt(userScore.innerText);
@@ -85,16 +85,23 @@ function incrementComputerScore() {
     checkWinner(currentComputerScore, 'comp')
 }
 
-// alerts who the winner is based on who reaches 5 first //
+// alerts who the winner is based on who reaches 5 first 
 
 function checkWinner(score, player) { 
     if (player == 'user') {
         if (score == gameOver) {
-            alert('You have won the match!');
+            alert('You have won the match! Click Restart Game to try again.');
         }
     } else if (player == 'comp') {
         if (score == gameOver) {
-            alert('You have lost the match!');
+            alert('You have lost the match! Click Restart Game to try again.');
         }
     }
 }
+
+// restarts the game when clicked 
+
+document.querySelector('.restart-btn').addEventListener('click', function(){
+    window.location.reload();
+    return false;
+  });
