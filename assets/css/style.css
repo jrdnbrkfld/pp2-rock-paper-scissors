@@ -22,12 +22,23 @@ body {
     z-index: 200;
     color: #00171F;
     text-align: center;
+    line-height: 5vh;
 }
 
 .splash h1 {
+    font-size: 2.5rem;
+    text-transform:uppercase;
+}
+
+.splash h2 {
     font-size: 2rem;
     text-transform:uppercase;
 }
+
+.splash .fa-solid {
+    font-size: 200%;
+}
+
 
 .splash.display-none {
     position: fixed;
@@ -71,6 +82,7 @@ button {
     font-size: 1.5rem;
     margin: 0 30px;
     color: #00A7E1;
+    line-height: 4vh;
     transition-duration: 0.4s;
 }
 
