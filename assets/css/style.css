@@ -22,7 +22,10 @@ body {
     z-index: 200;
     color: #00171F;
     text-align: center;
-    line-height: 85vh;
+}
+
+.splash h1 {
+    font-size: 2rem;
 }
 
 .splash.display-none {
