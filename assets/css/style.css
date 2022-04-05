@@ -3,6 +3,7 @@ body {
     color: #00171F;
     font-family: 'Space Grotesk', sans-serif;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .heading {
@@ -82,7 +83,6 @@ button {
     font-size: 1.5rem;
     margin: 0 30px;
     color: #00A7E1;
-    line-height: 4vh;
     transition-duration: 0.4s;
 }
 
