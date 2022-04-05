@@ -119,3 +119,17 @@ button:hover {
     }
 }
 
+/* footer */
+
+.fa-brands {
+    padding: 20px;
+    font-size: 200%;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #00171F;
+}
+
+.fa-brands:hover {
+    opacity: 0.7;
+  }
