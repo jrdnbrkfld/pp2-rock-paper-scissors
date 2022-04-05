@@ -1,7 +1,7 @@
 body {
     background-color: #00A7E1;
     color: #00171F;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     text-align: center;
 }
 
@@ -26,6 +26,7 @@ body {
 
 .splash h1 {
     font-size: 2rem;
+    text-transform:uppercase;
 }
 
 .splash.display-none {
