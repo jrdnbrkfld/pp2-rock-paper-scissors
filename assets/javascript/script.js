@@ -2,12 +2,23 @@ const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.querySelectorAll('button')
+const splash = document.querySelector('.splash');
 let userChoice
 let computerChoice
 let result
 const gameOver = 5;
 let userScore = document.getElementById('user-score')
 let computerScore = document.getElementById('computer-score')
+
+// start screen
+
+document.addEventListener('DOMContentLoaded', (e) => {
+    setTimeout(() => {
+        splash.classList.add('display-none');
+    }, 5000);
+})
+
+// event listener to generate computer choice when user makes a choice
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
@@ -16,7 +27,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     getResult()
 }))
 
-// generates the computers choice
+// generates the computers choice as a random number
 
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) + 1
