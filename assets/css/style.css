@@ -79,7 +79,7 @@ body {
 
 button {
     border-radius: 50px;
-    background-color: #000000;
+    background-color: #00000000;
     width: auto;
     height: auto;
     font-size: 1.5rem;
@@ -90,8 +90,22 @@ button {
 }
 
 button:hover {
-    background-color: #000000; 
-    color: #d4c900;
+    color: #000000;
+}
+
+.bouncy {
+    animation: bouncy 4s infinite linear;
+    position: relative;
+}
+
+@keyframes bouncy {
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.9em}
+    46%{top:0em}
+    48%{top:-0.4em}
+    50%{top:0em}
+    100%{top:0em}
 }
 
 .choice-area {
@@ -149,4 +163,6 @@ button:hover {
 
 .fa-brands:hover {
     opacity: 0.7;
-  }
+    color: #000000;
+    transition-duration: 0.4s;
+}
