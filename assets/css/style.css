@@ -1,9 +1,19 @@
 body {
-    background-color: #00A7E1;
-    color: #00171F;
+    color: #d4c900;
     font-family: 'Space Grotesk', sans-serif;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    background: linear-gradient(0deg, #450089, #c10606);
+    background-size: 400% 400%;
+    
+    animation: background-gradient 58s ease infinite;
+}
+    
+@keyframes background-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
 }
 
 /* start game screen */
@@ -16,9 +26,14 @@ body {
     height: 100vh;
     background: #00A7E1;
     z-index: 200;
-    color: #00171F;
+    color: #d4c900;
     text-align: center;
     line-height: 5vh;
+    text-shadow: 2px 2px black;
+    background: linear-gradient(0deg, #450089, #c10606);
+    background-size: 400% 400%;
+
+    animation: background-gradient 58s ease infinite;
 }
 
 .splash h1 {
@@ -45,7 +60,7 @@ body {
     height: 100vh;
     background: #00A7E1;
     z-index: -10;
-    color: #00171F;
+    color: #d4c900;
     text-align: center;
     line-height: 85vh;
     transition: all 0.5s;
@@ -62,28 +77,23 @@ body {
     animation: fadeIn 1s ease-in forwards;
 }
 
-#canvas {
-    height: 100%;
-    width: 100%;
-    background-color: black;
-}
-
 /* choice area */
 
 button {
     border-radius: 50px;
-    background-color: #00171F;
+    background-color: #000000;
     width: auto;
     height: auto;
     font-size: 1.5rem;
     margin: 10px;
-    color: #00A7E1;
+    color: #d4c900;
+    cursor: pointer;
     transition-duration: 0.4s;
 }
 
 button:hover {
-    background-color: #00A7E1; 
-    color: #00171F;
+    background-color: #000000; 
+    color: #d4c900;
 }
 
 .choice-area {
@@ -135,7 +145,8 @@ button:hover {
     width: 50px;
     text-align: center;
     text-decoration: none;
-    color: #00171F;
+    color: #d4c900;
+    cursor: pointer;
 }
 
 .fa-brands:hover {
