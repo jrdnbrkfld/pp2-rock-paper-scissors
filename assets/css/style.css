@@ -172,11 +172,11 @@ button:focus-visible{
 
 /* media queries */
 
-/* smaller devices (phones, 600px and down) */
+/* even smaller devices 320px and down */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
     body {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .choice-area {
@@ -186,9 +186,28 @@ button:focus-visible{
 
     button {
         margin: 5px;
-        font-size: 1rem;
+        font-size: 10px;
     }
 }
+
+/* extra small devices (older phones, 320px and up) */
+
+@media screen and (min-width: 320px) {
+    body {
+        font-size: 10px;
+    }
+
+    .choice-area {
+        display: inline-grid;
+        justify-items: center;
+    }
+
+    button {
+        margin: 5px;
+        font-size: 10px;
+    }
+}
+
 
 /* small devices (tablets 768px and up) */
 
@@ -202,11 +221,11 @@ button:focus-visible{
     }
 }
 
-/* medium devices (laptops, 1280px and up) */
+/* medium devices (laptops, 1440px and up) */
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1440px) {
     body {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     button {
@@ -214,11 +233,11 @@ button:focus-visible{
     }
 }
 
-/* large devices (desktops, 1600px and up) */
+/* large devices (desktops, 2560px and up) */
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 2560px) {
     body {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     button {
