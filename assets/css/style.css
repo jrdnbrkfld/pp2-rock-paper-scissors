@@ -190,11 +190,11 @@ button:focus-visible{
     }
 }
 
-/* extra small devices (older phones, 320px and up) */
+/* extra small devices (older phones, 321px and up) */
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 321px) {
     body {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .choice-area {
@@ -204,7 +204,7 @@ button:focus-visible{
 
     button {
         margin: 5px;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
