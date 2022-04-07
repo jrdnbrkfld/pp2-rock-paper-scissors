@@ -172,11 +172,11 @@ button:focus-visible{
 
 /* media queries */
 
-/* small devices (phones, 600px and down) */
+/* smaller devices (phones, 600px and down) */
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: smaller;
+        font-size: 14px;
     }
 
     .choice-area {
@@ -186,16 +186,39 @@ button:focus-visible{
 
     button {
         margin: 5px;
+        font-size: 1rem;
     }
 }
 
+/* small devices (tablets 768px and up) */
 
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1rem;
+    }
 
-/* large desktops */
+    button {
+        font-size: 1.5em;
+    }
+}
+
+/* medium devices (laptops, 1280px and up) */
+
+@media screen and (min-width: 1000px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+}
+
+/* large devices (desktops, 1600px and up) */
 
 @media screen and (min-width: 1600px) {
     body {
-        font-size: 2rem;
+        font-size: 2em;
     }
 
     button {
