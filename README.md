@@ -6,7 +6,7 @@ This website was created to complete the second Milestone Project for Code Insit
 
 ![Website Mock Up](assets/images/readme/website-mock-up.png)
 
-You can find the link to the live website right [here](https://jrdnbrkfld.github.io/rock-paper-scissors/)
+You can find the link to the live website right [here](https://jrdnbrkfld.github.io/pp2-rock-paper-scissors/)
 
 ***
 
