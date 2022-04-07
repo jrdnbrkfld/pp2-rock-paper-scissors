@@ -4,9 +4,12 @@
 ## Purpose
 This website was created to complete the second Milestone Project for Code Insitute's Full Stack Software Developer course. I built this from the ground up using knowledge I gained from the previous modules. These being HTML, CSS, User Centric Design and JavaScript. The full list of technologies used can be found in the technologies section further down.
 
-![Website Mock Up](assets/images/website-mock-up.png)
+Users of this website are able to challenge themselves to play against a computer, with the winner being declared when either one reaches a score of 5.
 
-You can find the link to the live website right [here](https://jrdnbrkfld.github.io/pp2-rock-paper-scissors/)
+![Website Mock Up](assets/images/readme/website-mock-up.png)
+
+You can find the link to the live website right [here](https://jrdnbrkfld.github.io/pp2-rock-paper-scissors/).
+
 
 ***
 
@@ -14,13 +17,12 @@ You can find the link to the live website right [here](https://jrdnbrkfld.github
 
 ### User Stories
 #### First Time Visitor Goals
-text
-
+* As a First Time user, I want to be able to easily navigate throughout the site to find content.
+* As a First Time user, I want to easily understand the main purpose of the site.
+* As a First Time user, I want to find ways to follow the creator of the site on multiple social media platforms.
 #### Returning Visitor Goals
-text
+* As a Returning user, I want to be able to return to see if I can beat the computer.
 
-#### Frequent Visitor Goals
-text
 
 ## Design
 #### Imagery
