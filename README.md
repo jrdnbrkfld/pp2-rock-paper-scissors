@@ -4,7 +4,7 @@
 ## Purpose
 This website was created to complete the second Milestone Project for Code Insitute's Full Stack Software Developer course. I built this from the ground up using knowledge I gained from the previous modules. These being HTML, CSS, User Centric Design and JavaScript. The full list of technologies used can be found in the technologies section further down.
 
-image of website mock up
+![Website Mock Up](assets/images/readme/website-mock-up.png)
 
 You can find the link to the live website right [here](https://jrdnbrkfld.github.io/rock-paper-scissors/)
 
