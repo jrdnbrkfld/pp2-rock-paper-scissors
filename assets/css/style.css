@@ -188,6 +188,16 @@ button:focus-visible{
         margin: 5px;
         font-size: 10px;
     }
+
+    .splash h1 {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .splash h2 {
+        font-size: 20px;
+        padding: 5px;
+    }
 }
 
 /* extra small devices (older phones, 321px and up) */
@@ -206,6 +216,14 @@ button:focus-visible{
         margin: 5px;
         font-size: 15px;
     }
+
+    .splash h1 {
+        font-size: 1.5rem;
+    }
+
+    .splash h2 {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -219,6 +237,14 @@ button:focus-visible{
     button {
         font-size: 1.5em;
     }
+
+    .splash h1 {
+        font-size: 2rem;
+    }
+
+    .splash h2 {
+        font-size: 2rem;
+    }
 }
 
 /* medium devices (laptops, 1440px and up) */
@@ -231,6 +257,14 @@ button:focus-visible{
     button {
         font-size: 1.5rem;
     }
+
+    .splash h1 {
+        font-size: 2em;
+    }
+
+    .splash h2 {
+        font-size: 2em;
+    }
 }
 
 /* large devices (desktops, 2560px and up) */
@@ -242,6 +276,14 @@ button:focus-visible{
 
     button {
         font-size: 2rem;
+    }
+
+    .splash h1 {
+        font-size: 2.5em;
+    }
+
+    .splash h2 {
+        font-size: 2.5em;
     }
 }
 
