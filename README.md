@@ -47,13 +47,18 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
     ![Splash Screen](assets/images/readme/splash-screen.png)
 
 * #### Choice Area
-    * This section included a block of text encouraging the user to make a choice, and buttons corresponding to either of the 3 choices to make.
+    * This section includes a block of text encouraging the user to make a choice, and buttons corresponding to either of the 3 choices to make.
     * The buttons in this section are styled in a way that when the user hovers over (on desktop) or clicks the button (on mobile) it will apply a shadow to give a raised look.
     * I also incorporated an idle animation to the buttons that loops every 5 seconds. This gives the buttons a bouncy animation that has a small delay between each of them, so they don't all bounce at once.
     * The purpose of this is to fulfill the user story:
     > As a First Time user, I want a simple but effective way of making my choices while playing the game.
 
     ![Choice Area](assets/images/readme/choice-area.png)
+
+* #### Chosen Area
+    * This section
+
+    ![Chosen Area](assets/images/readme/chosen-area.png)
 
 ### Features Left to Implement
 
