@@ -74,6 +74,13 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
 
     ![Score Area](assets/images/readme/score-area.png)
 
+* #### Restart Section
+
+
+    ![Alert](assets/images/readme/alert.png) 
+    
+    ![Restart](assets/images/readme/restart.png)
+
 
 ### Features Left to Implement
 
