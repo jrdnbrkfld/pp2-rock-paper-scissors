@@ -91,7 +91,9 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
 
     ![Social Media Links](assets/images/readme/social-media-area.png)
 
-### Features Left to Implement
+* ### Features Left to Implement
+    * I would like to incorporate a form that takes the name of the user and saves it to add a more personalised touch to the experience.
+    * I will add a leaderboard eventually that will keep a tally of wins/losses.
 
 *** 
 
