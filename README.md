@@ -74,13 +74,22 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
 
     ![Score Area](assets/images/readme/score-area.png)
 
-* #### Restart Section
+* #### Restart Area
+    * This section contains the Restart Game button, which the user can press when either the user or the computer has reached a score of 5 before their opponent.
+    * When a score of 5 is reached an alert appears letting the user know who has won, while also informing them on how to try again.
+    * The purpose of this is to fulfill the user story:
+    > As a Returning user, I want to be able to return to see if I can beat the computer again or for the first time.
+    
+    ![Restart Area](assets/images/readme/restart.png)
+    ![Alert](assets/images/readme/alert.png)
 
+* #### Social Media Area
+    * This section contains the links to my Twitter, LinkedIn and GitHub profiles
+    * When clicked they will open in a seperate tab.
+    * The purpose of this is to fulfill the user story
+    > As a First Time user, I want to find ways to follow the creator of the site on multiple social media platforms to keep up to date with what they have created.
 
-    ![Alert](assets/images/readme/alert.png) 
-
-    ![Restart](assets/images/readme/restart.png)
-
+    ![Social Media Links](assets/images/readme/social-media-area.png)
 
 ### Features Left to Implement
 
