@@ -33,6 +33,7 @@ Users of this website are able to challenge themselves to play against a compute
 ![Website Mock Up](assets/images/readme/website-mock-up.png)
 
 You can find the link to the live website right [here](https://jrdnbrkfld.github.io/pp2-rock-paper-scissors/).
+Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
 
 
 ***
@@ -164,7 +165,7 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
 * CSS
   * No errors were returned when passing through the official W3C CSS Validation Service - Jigsaw. [View Report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjrdnbrkfld.github.io%2Fpp2-rock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 * JavaScript
-  * No errors were returned when passing through the validator service at JSHint.com. ![View Image of Report]()
+  * No errors were returned when passing through the validator service at JSHint.com. ![View Image of Report](assets/images/readme/js-validator.png)
 
 ## Issues and Resolutions
 
