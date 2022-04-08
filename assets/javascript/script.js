@@ -25,7 +25,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     userChoiceDisplay.innerHTML = userChoice;
     generateComputerChoice();
     getResult();
-}))
+}));
 
 // generates the computers choice as a random number
 
