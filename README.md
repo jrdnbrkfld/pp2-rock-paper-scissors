@@ -20,6 +20,7 @@ You can find the link to the live website right [here](https://jrdnbrkfld.github
 * As a First Time user, I want to easily understand the main purpose of the site.
 * As a First Time user, I want a simple but effective way of making my choices while playing the game.
 * As a First Time user, I want to clearly see how my choices are affecting the game for good or bad.
+* As a First Time user, I want to see the scores of the game to understand which user is winning or losing.
 * As a First Time user, I want to find ways to follow the creator of the site on multiple social media platforms to keep up to date with what they have created.
 #### Returning Visitor Goals
 * As a Returning user, I want to be able to return to see if I can beat the computer again or for the first time.
@@ -63,6 +64,16 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
     > As a First Time user, I want to clearly see how my choices are affecting the game for good or bad.
 
     ![Chosen Area](assets/images/readme/chosen-area.png)
+
+* #### Score Area
+    * This section returns the result after the user and computer have made their choice.
+    * I wrote a JavaScript function that increments the score by 1 each time their is a winner. It does nothing when it is a loss, or draw.
+    * I changed the font color of the scores to reflect the user score and computer score.
+    * The purpose of this is to fulfill the user story:
+    > As a First Time user, I want to see the scores of the game to understand which user is winning or losing.
+
+    ![Score Area](assets/images/readme/score-area.png)
+
 
 ### Features Left to Implement
 
