@@ -21,7 +21,7 @@ You can find the link to the live website right [here](https://jrdnbrkfld.github
 * As a First Time user, I want to easily understand the main purpose of the site.
 * As a First Time user, I want to find ways to follow the creator of the site on multiple social media platforms.
 #### Returning Visitor Goals
-* As a Returning user, I want to be able to return to see if I can beat the computer.
+* As a Returning user, I want to be able to return to see if I can beat the computer again or for the first time.
 
 
 ## Design
@@ -30,7 +30,7 @@ The images you are greeted to when entering the website are relating to the obje
 #### Fonts
 The font used throughout the website is **Space Grotesk**. I used only 1 font for the site, but used text-transform to make all text uppercase.
 #### Color Scheme
-Four colors are used in this website, these being #000000, #D4C900, #450089 and #C10606. I incorporated a background gradient to mix the Milano Red and Pigment Indigo to make the site more appealing. The background and foreground colors have a sufficient contrast ratio to make it easy on the eyes.
+Four colors are used in this website, these being #000000, #D4C900, #450089 and #C10606. I incorporated a background gradient to mix the Milano Red and Pigment Indigo to make the site more appealing. The background and foreground colors have a sufficient contrast ratio to aid with accessibility.
 ![Color Pallete](assets/images/readme/color-pallete.png)
 
 *** 
@@ -38,8 +38,13 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
 ## Features
 
 ### Existing Features
+* #### Splash Screen
+    * This is the first thing the user is greeted with when opening the website. 
+    * It clearly states the main objective of the game, the rules to follow and a supporting message.
+    * The purpose of this is to fulfill the user story:
+    > As a First Time user, I want to easily understand the main purpose of the site.
 
-features
+    ![Splash Screen](assets/images/readme/splash-screen.png)
 
 ### Features Left to Implement
 
