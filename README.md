@@ -19,6 +19,7 @@ You can find the link to the live website right [here](https://jrdnbrkfld.github
 #### First Time Visitor Goals
 * As a First Time user, I want to easily understand the main purpose of the site.
 * As a First Time user, I want a simple but effective way of making my choices while playing the game.
+* As a First Time user, I want to clearly see how my choices are affecting the game for good or bad.
 * As a First Time user, I want to find ways to follow the creator of the site on multiple social media platforms to keep up to date with what they have created.
 #### Returning Visitor Goals
 * As a Returning user, I want to be able to return to see if I can beat the computer again or for the first time.
@@ -56,7 +57,10 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
     ![Choice Area](assets/images/readme/choice-area.png)
 
 * #### Chosen Area
-    * This section
+    * This section has 2 main blocks of text. These being what the user has chosen, and what the computer has chosen.
+    * The computer choice is generated through a JavaScript function I created that generates a random number of 1 (rock), 2 (paper) or 3 (scissors). In this case I chose the option Rock, while the computer choice generated the number 3 resulting in Scissors. Therefore I won the round.
+    * The purpose of this is to fulfill the user story:
+    > As a First Time user, I want to clearly see how my choices are affecting the game for good or bad.
 
     ![Chosen Area](assets/images/readme/chosen-area.png)
 
