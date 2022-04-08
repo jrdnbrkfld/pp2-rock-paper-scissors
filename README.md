@@ -30,7 +30,7 @@ You can find the link to the live website right [here](https://jrdnbrkfld.github
 #### Imagery
 The images you are greeted to when entering the website are relating to the objective of the game. The sizes of the images vary depending on the size of the screen they are viewed on.
 #### Fonts
-The font used throughout the website is **Space Grotesk**. I used only 1 font for the site, but used text-transform to make all text uppercase.
+The font used throughout the website is **Space Grotesk**. I used only 1 font for the site, but used text-transform to make all text uppercase. I also added a background shadow to the text to give it a bit more style.
 #### Color Scheme
 Four colors are used in this website, these being #000000, #D4C900, #450089 and #C10606. I incorporated a background gradient to mix the Milano Red and Pigment Indigo to make the site more appealing. The background and foreground colors have a sufficient contrast ratio to aid with accessibility.
 ![Color Pallete](assets/images/readme/color-pallete.png)
@@ -78,7 +78,7 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
 
 
     ![Alert](assets/images/readme/alert.png) 
-    
+
     ![Restart](assets/images/readme/restart.png)
 
 
