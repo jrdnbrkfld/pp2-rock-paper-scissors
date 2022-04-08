@@ -97,6 +97,7 @@ button {
     text-overflow: ellipsis;
     transition: all .14s ease-out;
     white-space: nowrap;
+    text-shadow: 2px 2px black;
 }
 
 button:hover {
