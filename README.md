@@ -17,7 +17,7 @@
         * [Restart Area](#Restart-Area)
         * [Social Media Area](#Social-Media-Area)
     * [Features Left To Implement](#Features-Left-To-Implement)
-    
+
 # Milestone Project 2 - Rock, Paper, Scissors Game
 ## Purpose
 This website was created to complete the second Milestone Project for Code Insitute's Full Stack Software Developer course. I built this from the ground up using knowledge I gained from the previous modules. These being HTML, CSS, User Centric Design and JavaScript. The full list of technologies used can be found in the technologies section further down.
@@ -117,7 +117,28 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
 
 ## Technologies
 
-list all tech
+* HTML
+    * This project uses HTML as the main language that is used to complete the structure of the website.
+* CSS
+    * This project uses custom written CSS that I have used to style the website.
+* JavaScript
+    * This project uses JavaScript code I have personally written to handle certain aspects of the website.
+* [Font Awesome](https://fontawesome.com/)
+    * Font Awesome icons are used for the rock, paper and scissors icons and the social media links located in the Footer section of the website.
+* [Google Fonts](https://fonts.google.com/)
+    * Google fonts are used in the project to import the **Space Grotesk** font.
+* [Quicktools by Picsart](https://tools.picsart.com/)
+    * Quicktools by Picsart is used to generate the image of the color pallete.
+* [Am I Responsive?](http://ami.responsivedesign.is/)
+    * Am I Responsive is used to generate the website mock up.
+* [GitHub](https://github.com/)
+    * GitHub is the hosting site I used to store the code for the website.
+* [GitPod](https://gitpod.io/)
+    * GitPod is the Integrated Development Environment used to develop the website in a browser.
+* [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
+    * The built in developer tools in Google Chrome are used to test CSS styles, inspect page elements and help with debugging problems with the layout of the website.
+* [Stack Overflow](https://stackoverflow.com/)
+    * Stack Overflow was the primary source for help regarding HTML, CSS and JavaScript issues.
 
 ***
 
