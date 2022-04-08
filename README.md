@@ -1,5 +1,23 @@
 ## Table of Contents
-
+* [Purpose](#Purpose)
+* [User Experience Design](#User-Experience-Design)
+    * [User Stories](#User-Stories)
+        * [First Time Visitor Goals](#First-Time-Visitor-Goals)
+        * [Returning Visitor Goals](#Returning-Visitor-Goals)
+    * [Design](#Design)
+        * [Imagery](#Imagery)
+        * [Fonts](#Fonts)
+        * [Color Scheme](#Color-Scheme)
+- [Features](#Features)
+    * [Existing Features](#Existing-Features)
+        * [Splash Screen](#Splash-Screen)
+        * [Choice Area](#Choice-Area)
+        * [Chosen Area](#Chosen-Area)
+        * [Score Area](#Score-Area)
+        * [Restart Area](#Restart-Area)
+        * [Social Media Area](#Social-Media-Area)
+    * [Features Left To Implement](#Features-Left-To-Implement)
+    
 # Milestone Project 2 - Rock, Paper, Scissors Game
 ## Purpose
 This website was created to complete the second Milestone Project for Code Insitute's Full Stack Software Developer course. I built this from the ground up using knowledge I gained from the previous modules. These being HTML, CSS, User Centric Design and JavaScript. The full list of technologies used can be found in the technologies section further down.
