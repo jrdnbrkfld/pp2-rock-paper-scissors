@@ -17,6 +17,12 @@
         * [Restart Area](#Restart-Area)
         * [Social Media Area](#Social-Media-Area)
     * [Features Left To Implement](#Features-Left-To-Implement)
+- [Technologies](#Technologies)
+- [Testing](#Testing)
+    * [Validator Testing](#Validator-Testing)
+    * [Issues And Resolutions](#Issues-And-Resolutions)
+- [Deployment](#Deployment)
+- [Credits](#Credits)
 
 # Milestone Project 2 - Rock, Paper, Scissors Game
 ## Purpose
@@ -144,7 +150,12 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
 
 ## Testing
 
-list all testing done here
+* I tested that the website is responsive, functions well and looks good on all screen sizes using Google Dev Tools and [Responsive Design Checker](https://responsivedesignchecker.com/). 
+* I did this by incorporating a varitety of media queries to the CSS file, these being: 
+    * Large devices 2560px and up.
+    * Medium devices 1440px and up.
+    * Small devices 768px and up.
+    * Extra small devices 321px and up.
 
 ## Validator Testing
 
