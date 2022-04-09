@@ -164,6 +164,8 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
   |     Samsung S10           | No issues  |                  
   |      iPhone 11            | No issues  |                   
   |     Fire HD 8 Tablet      | No issues  |                   
+  | Desktop 3840 x 2160       | No issues  | 
+  | Desktop 1920 x 1080       | No issues  | 
 
 ## Validator Testing
 
