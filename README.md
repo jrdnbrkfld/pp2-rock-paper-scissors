@@ -157,23 +157,35 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
     * Medium devices 1440px and up.
     * Small devices 768px and up.
     * Extra small devices 321px and up.
+* I also tested the website on multiple devices in my home, these all worked well with no issues.
+
+  |Device                     |  Result    |   
+  |-----------------------    |------------|
+  |     Samsung S10           | No issues  |                  
+  |      iPhone 11            | No issues  |                   
+  |     Fire HD 8 Tablet      | No issues  |                   
 
 ## Validator Testing
 
 * HTML
-  * No errors were returned when passing through the official W3C Validator. [View Report](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjrdnbrkfld.github.io%2Fpp2-rock-paper-scissors%2F)
+    * No errors were returned when passing through the official W3C Validator. [View Report](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjrdnbrkfld.github.io%2Fpp2-rock-paper-scissors%2F)
 * CSS
-  * No errors were returned when passing through the official W3C CSS Validation Service - Jigsaw. [View Report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjrdnbrkfld.github.io%2Fpp2-rock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * No errors were returned when passing through the official W3C CSS Validation Service - Jigsaw. [View Report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjrdnbrkfld.github.io%2Fpp2-rock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 * JavaScript
-  * No errors were returned when passing through the validator service at JSHint.com. ![View Image of Report](assets/images/readme/js-validator.png)
+    * No errors were returned when passing through the validator service at JSHint.com. ![View Image of Report](assets/images/readme/js-validator.png)
 * Accessibility
-    * I confirmed after running the website through the Lighthouse feature in Chrome Developer Tools that the performance, accessibility, best practices and SEO are to a high standard.
-       
-        ![Lighthouse Results](assets/images/readme/lighthouse-result.png)
+    * I confirmed after running the website through the Lighthouse feature in Chrome Developer Tools that the performance, accessibility, best practices and SEO are to a high standard. 
+    
+    ![Lighthouse Results](assets/images/readme/lighthouse-result.png)
+* WAVE Web Accessibility Evaluation Tool
+    * The WAVE tool was used to test the page for accessibility. It returned 0 errors and 0 contrast errors.
+
+    ![WAVE Web Accessibility Evaluation Tool](assets/images/readme/wave-report.png)
 
 ## Issues and Resolutions
 
-list bugs and what was done to fix
+* I encountered an issue while trying to implement the function that increments the scores for user/computer. I found that it was calling the numbers relating to the 3 choices, but it wasn't incrementing the scores when the choices had been made. This was resolved with the help of [Matt Boden](https://www.linkedin.com/in/matt-bodden/).
+* I encountered an issue with the favicon on the website not showing up on a tab. I resolved this by deleting the code containing the favicon and starting fresh.
 
 ***
 
@@ -187,5 +199,4 @@ list bugs and what was done to fix
 ***
 
 ## Credits
-
-mention all who helped
+I'd like to thank [Ronan McClelland](https://www.linkedin.com/in/ronanmcclelland/), [Rob Fairclough](https://www.linkedin.com/in/robfairclough/) & [Matt Boden](https://www.linkedin.com/in/matt-bodden/) for their help with regards to debugging code, guidance and motivation to complete this project. 
