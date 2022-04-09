@@ -167,7 +167,7 @@ Four colors are used in this website, these being #000000, #D4C900, #450089 and 
 * JavaScript
   * No errors were returned when passing through the validator service at JSHint.com. ![View Image of Report](assets/images/readme/js-validator.png)
 * Accessibility
-    * I confirmed after running the website through the Lighthouse feature in Google Devtools that the performance, accessibility, best practices and SEO are to a high standard.
+    * I confirmed after running the website through the Lighthouse feature in Chrome Developer Tools that the performance, accessibility, best practices and SEO are to a high standard.
        
         ![Lighthouse Results](assets/images/readme/lighthouse-result.png)
 
